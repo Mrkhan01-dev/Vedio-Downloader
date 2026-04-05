@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bass44 | Pro Downloader</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { background: linear-gradient(135deg, #00c6ff, #0072ff); }
+    </style>
+</head>
+<body class="text-white min-h-screen flex flex-col items-center justify-center p-5">
+    
+    <header class="text-center mb-10">
+        <h1 class="text-5xl font-bold mb-2">Bass44</h1>
+        <p class="text-lg opacity-80">Download Videos & Audio Instantly</p>
+    </header>
+
+    <div class="bg-white/10 backdrop-blur-md p-8 rounded-2xl shadow-2xl w-full max-w-2xl border border-white/20">
+        <form action="/download" method="POST" class="flex flex-col gap-4">
+            <input type="text" name="url" placeholder="Paste your link here (TikTok, Insta, etc.)" 
+                   class="p-4 rounded-lg bg-white/20 border-none text-white placeholder-white/60 focus:ring-2 focus:ring-green-400 outline-none">
+            <button type="submit" class="bg-gradient-to-r from-green-400 to-blue-500 p-4 rounded-lg font-bold text-xl hover:scale-105 transition-transform">
+                DOWNLOAD NOW
+            </button>
+        </form>
+    </div>
+
+    <script>
+        // Your Ad Code Here
+    </script>
+</body>
+</html>
